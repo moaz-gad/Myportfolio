@@ -1,7 +1,7 @@
-import React from "react";
-import "./Contact.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo } from "../../portfolio";
+import React from "react"
+import "./Contact.css"
+import SocialMedia from "../../components/socialMedia/SocialMedia"
+import { contactInfo } from "../../portfolio"
 
 export default function Contact() {
   return (
@@ -36,5 +36,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  );
+  )
 }

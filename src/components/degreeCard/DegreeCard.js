@@ -1,10 +1,10 @@
-import React from "react";
-import { Fade, Flip } from "react-reveal";
-import "./DegreeCard.css";
+import React from "react"
+import { Fade, Flip } from "react-reveal"
+import "./DegreeCard.css"
 
 function DegreeCard(props) {
-  const degree = props.degree;
-  const theme = props.theme;
+  const degree = props.degree
+  const theme = props.theme
   return (
     <div className="degree-card">
       {degree.logo_path && (
@@ -61,29 +61,13 @@ function DegreeCard(props) {
                 >
                   {sentence}
                 </p>
-              );
+              )
             })}
-            {degree.website_link && (
-              <a
-                href={degree.website_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="visit-btn"
-                  style={{ backgroundColor: theme.accentColor }}
-                >
-                  <p className="btn" style={{ color: theme.ternaryText }}>
-                    Visit Website
-                  </p>
-                </div>
-              </a>
-            )}
           </div>
         </div>
       </Fade>
     </div>
-  );
+  )
 }
 
-export default DegreeCard;
+export default DegreeCard

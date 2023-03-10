@@ -1,23 +1,23 @@
-import React from "react";
-import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
-import { style } from "glamor";
-import Typewriter from "typewriter-effect";
-import FeelingProud from "./FeelingProud";
-import WaveHand from "../../assets/images/waving-hand.png";
-import "./Greeting.css";
-
+import React from "react"
+import { greeting } from "../../portfolio"
+import { Fade } from "react-reveal"
+import { style } from "glamor"
+import Typewriter from "typewriter-effect"
+import FeelingProud from "./FeelingProud"
+import WaveHand from "../../assets/images/waving-hand.png"
+import "./Greeting.css"
 export default function Greeting(props) {
-  const theme = props.theme;
+  const theme = props.theme
 
   const styles = style({
-    backgroundColor: `${theme.accentBright}`,
+    backgroundColor: "black",
     padding: "15px 30px !important",
     letterSpacing: "0.125rem",
+    boxShadow: `0 5px 15px ${theme.accentBright}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
+      boxShadow: `none`,
     },
-  });
+  })
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -25,59 +25,65 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div className="greeting-text-container">
-              <h1 className="greeting-text">
-                {greeting.title}
-                <img
-                  className="greeting-hand-wave"
-                  src={WaveHand}
-                  alt="waving-hand"
-                />
-                ,{greeting.title2}
-              </h1>
+              <h3 className="">{greeting.title}</h3>
               <div
                 className="greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span className="greeting-text-static">I'm a </span>
+                <span className="greeting-text-static">I'm</span>
                 <Typewriter
                   options={{
                     autoStart: true,
-                    loop: true,
+                    loop: false,
                   }}
                   onInit={(typewriter) => {
                     typewriter
                       .pauseFor(500)
                       .typeString(
-                        `<span style="color: ${theme.accentColor}">${greeting.subTitle1}</span>`
+                        `<span style="color: ${theme.accentColor}">${greeting.subTitle}</span>`
                       )
-                      .pauseFor(300)
-                      .deleteChars(21)
-                      .typeString(
-                        `<span style="color: ${theme.accentColor}">${greeting.subTitle2}</span>`
-                      )
-                      .pauseFor(1000)
-                      .start();
+
+                      .start()
                   }}
                 />
               </div>
-              <div className="portfolio-repo-btn-div">
-                <a
-                  {...styles}
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={greeting.resumeLink}
-                >
-                  Résumé
-                </a>
+
+              <div className="cta-container">
+                <div className="btns-container">
+                  <div className="portfolio-repo-btn-div">
+                    <a
+                      {...styles}
+                      className="button"
+                      rel="noopener noreferrer"
+                      href="./#/projects"
+                    >
+                      My portfolio
+                    </a>
+                  </div>
+                  <div className="portfolio-repo-btn-div">
+                    <a
+                      {...styles}
+                      className="button"
+                      rel="noopener noreferrer"
+                      href="./#/contact"
+                    >
+                      Get in touch
+                    </a>
+                  </div>
+                </div>
+                <div className="about-me">
+                  <p>
+                    or learn more{" "}
+                    <span>
+                      <a href="#">about me.</a>
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
           </div>
         </div>
       </div>
     </Fade>
-  );
+  )
 }

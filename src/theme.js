@@ -1,29 +1,4 @@
 // Theme Presets
-const lightTheme = {
-  name: "light",
-  body: "#FEE9F2",
-  text: "#343434",
-  dark: "#31071A",
-  secondaryText: "#7F8DAA",
-  ternaryText: "#FFFFFF",
-  themeColor: "#FFFFFF",
-  oppositeThemeColor: "#000000",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
-  projectCard: "#DCE4F2",
-  skinColor: "#F7B799",
-  skinColor2: "#FCB696",
-  imageDark: "#dce4f2",
-  imageClothes: "#dce4f2",
-  avatarMisc: "#e9ecf2",
-  avatarShoes: "#ccd2e3",
-  expTxtColor: "#000a12",
-  highlight: "#FBA7CD",
-  imageHighlight: "#ef476f",
-  compImgHighlight: "#E6E6E6",
-  jacketColor: "#8d99ae",
-};
-
 const darkTheme = {
   name: "dark",
   body: "#1D1D1D",
@@ -33,8 +8,8 @@ const darkTheme = {
   ternaryText: "#FFFFFF",
   themeColor: "#1d1d1d",
   oppositeThemeColor: "#FFFFFF",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentColor: "rgb(226, 120, 108)",
+  accentBright: "rgb(226, 120, 108)",
   projectCard: "#292A2D",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
@@ -47,6 +22,6 @@ const darkTheme = {
   imageHighlight: "#ef476f",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8d99ae",
-};
+}
 
-export const themes = { light: lightTheme, dark: darkTheme };
+export const themes = { dark: darkTheme }

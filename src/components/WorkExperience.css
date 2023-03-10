@@ -1,0 +1,39 @@
+.work-experience {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgb(226, 120, 108);
+  border-bottom-width: medium;
+}
+
+.work-experience-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.work-experience-header h2 {
+  color: rgb(226, 120, 108);
+}
+
+.work-experience-company {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.work-experience-dates {
+  margin: 0;
+  color: rgb(226, 120, 108);
+}
+
+.work-experience-job-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.work-experience-description {
+  margin: 0;
+}

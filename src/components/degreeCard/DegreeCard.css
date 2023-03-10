@@ -8,12 +8,12 @@
 
 .card-title {
   font-family: "Google Sans Medium";
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .card-subtitle {
   font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 7px;
   margin-bottom: 5px;
 }
@@ -50,6 +50,7 @@
 }
 
 .body-content {
+  font-size: 15px;
   max-width: inherit;
   border-radius: 0px 0px 7px 7px;
   padding: 10px;
@@ -69,7 +70,6 @@
   border-right: 1px solid #d9dbdf;
   border-radius: 7px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
 }
 
 .visit-btn {

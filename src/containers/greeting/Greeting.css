@@ -1,5 +1,5 @@
 .main {
-  width: 90%;
+  width: 70%;
   padding: 0px 10px;
   margin: 0px auto;
   margin-top: 4rem;
@@ -28,12 +28,6 @@
   margin-top: 20px;
 }
 
-.greeting-text {
-  margin-top: 110px;
-  font-size: 70px;
-  font-family: "Google Sans Bold";
-}
-
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
@@ -41,11 +35,11 @@
 }
 
 .greeting-text-div {
-  font-size: 40px;
+  font-size: 22px;
   margin-bottom: 40px;
   display: inline-flex;
-  /* margin-right: 40px; */
   font-family: "Google Sans Medium";
+  min-width: 60%;
 }
 
 .greeting-text-static {
@@ -55,6 +49,12 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+#viewport {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .greeting-image-div {
@@ -68,14 +68,31 @@
   height: auto;
 }
 
+.cta-container {
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+}
+.btns-container {
+  display: flex;
+}
+div.about-me p {
+  font-size: 18px;
+}
+div.about-me span a {
+  color: rgb(226, 120, 108);
+  text-decoration: none;
+}
+div.about-me span a:hover {
+  text-decoration: underline;
+}
+
 .button {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   padding: 15px 15px;
-  margin-top: 25px;
-  border-radius: 40px;
-  border-width: 0px;
   margin-bottom: 20px;
+  margin-right: 1em;
   width: 200px;
   height: 50px;
   font-weight: bold;
@@ -151,5 +168,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  .cta-container {
+    flex-direction: column;
   }
 }

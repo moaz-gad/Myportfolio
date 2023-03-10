@@ -1,11 +1,11 @@
-import React from "react";
-import DegreeCard from "../../components/degreeCard/DegreeCard.js";
-import { degrees } from "../../portfolio";
-import { Fade } from "react-reveal";
-import "./Educations.css";
+import React from "react"
+import DegreeCard from "../../components/degreeCard/DegreeCard.js"
+import { degrees } from "../../portfolio"
+import { Fade } from "react-reveal"
+import "./Educations.css"
 
 function Educations(props) {
-  const theme = props.theme;
+  const theme = props.theme
 
   return (
     <div className="main" id="educations">
@@ -20,11 +20,11 @@ function Educations(props) {
         {degrees.degrees.map((degree, index) => {
           return (
             <DegreeCard key={"degree-" + index} degree={degree} theme={theme} />
-          );
+          )
         })}
       </div>
     </div>
-  );
+  )
 }
 
-export default Educations;
+export default Educations

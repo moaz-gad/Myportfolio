@@ -1,18 +1,9 @@
-/* header */
-.header-container-light {
-  position: sticky;
-  inset: 0;
-  background-color: #fee9f2;
-  z-index: 10;
-  box-shadow: 0 2px 2px rgb(230 230 230);
-}
-
 .header-container-dark {
   position: sticky;
   inset: 0;
   background-color: #1d1d1d;
   z-index: 10;
-  box-shadow: 0 2px 2px rgb(230 230 230);
+  /* box-shadow: 0 2px 2px rgb(230 230 230); */
 }
 
 .header {
@@ -39,6 +30,7 @@
 
 .header li a {
   text-decoration: none;
+  padding: 0.7em;
 }
 
 .header .logo {
@@ -78,7 +70,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: rgb(226, 120, 108);
   display: block;
   height: 2px;
   position: relative;
@@ -88,7 +80,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background: rgb(226, 120, 108);
   content: "";
   display: block;
   height: 100%;
@@ -152,7 +144,7 @@
   height: 0.15em;
   bottom: 0;
   width: 100%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -172,7 +164,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -194,7 +186,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -216,7 +208,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -238,7 +230,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -260,7 +252,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: rgb(226, 120, 108);
   transition: all ease-in-out 280ms;
 }
 
@@ -276,8 +268,8 @@
 
   .header {
     display: flex;
+    justify-content: end;
     align-items: center;
-    justify-content: space-between;
   }
 
   .header .menu {

@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { Fade } from "react-reveal";
-import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
-import { CgSun } from "react-icons/cg/";
-import { HiMoon } from "react-icons/hi";
-import { style } from "glamor";
-import "./Header.css";
+import React, { useState } from "react"
+import { Fade } from "react-reveal"
+import { NavLink, Link } from "react-router-dom"
+import { greeting, settings } from "../../portfolio.js"
+import { CgSun } from "react-icons/cg/"
+import { HiMoon } from "react-icons/hi"
+import { style } from "glamor"
+import "./Header.css"
 
 function Header(props) {
-  const theme = props.theme;
+  const theme = props.theme
 
   const styles = style({
     cursor: "pointer",
@@ -29,38 +29,7 @@ function Header(props) {
         props.theme.name === "light" ? "#fc10568f" : "#646464"
       }`,
     },
-  });
-
-  const link = settings.isSplash ? "/splash" : "home";
-
-  const [currTheme, setCurrTheme] = useState(props.theme);
-
-  function changeTheme() {
-    if (currTheme === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
-      props.setTheme("light");
-      localStorage.setItem("theme", "light");
-      setCurrTheme("light");
-    }
-  }
-
-  const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
-      />
-    ) : (
-      <CgSun
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
-      />
-    );
+  })
 
   return (
     <Fade top duration={1000} distance="20px">
@@ -72,13 +41,6 @@ function Header(props) {
         }`}
       >
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
-            </span>
-            <span style={{ color: theme.text }}></span>
-          </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
@@ -138,14 +100,11 @@ function Header(props) {
                 Contact
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
-              {icon}
-            </button>
           </ul>
         </header>
       </div>
     </Fade>
-  );
+  )
 }
 
-export default Header;
+export default Header

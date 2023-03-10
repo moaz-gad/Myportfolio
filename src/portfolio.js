@@ -2,32 +2,29 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-};
+  isSplash: false, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+}
 
 //Home Page
 const greeting = {
-  title: "Hi",
-  title2: " I'm Sumit Sharma",
-  logo_name: "Sumit Sharma",
+  title: "Welcome to my portfolio!",
+
+  logo_name: "Moaz Gad",
   // nickname: "harry / picleric",
-  full_name: "Sumit Sharma",
-  subTitle1: "Full Stack Developer.",
-  subTitle2: "Life Long Learner.",
-  subTitle: "Full Stack Developer, Life Long Learner.",
+  full_name: "Moaz Gad",
+  subTitle: "excited to share my work with you",
   resumeLink:
     "https://drive.google.com/file/d/1lFqkZnNUg5N2muUuv6qIF6so6xloY6-4/view?usp=sharing",
   mail: "mailto:sumitsharma9968@gmail.com",
-};
+}
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/sumit-sharma-02",
-  linkedin: "https://www.linkedin.com/in/sumitsharma002",
-  gmail: "sumitsharma9968@gmail.com",
-  twitter: "https://twitter.com/sumitsharma002",
-};
+  github: "https://github.com/moaz-gad",
+  linkedin: "https://www.linkedin.com/in/moazgad",
+  gmail: "moaz.a.gad@gmail.com",
+}
 
 const skills = {
   data: [
@@ -324,185 +321,117 @@ const skills = {
       ],
     },
   ],
-};
+}
 
 const degrees = {
   degrees: [
     {
-      title: "Amrita Vishwa Vidyapeetham, Coimbatore",
-      subtitle: "Masters in Computer Applications (MCA)",
-      logo_path: "amrita_logo.png",
-      alt_name: "Amrita University",
-      duration: "2021 - 2023",
+      title: "Information Technology Institute (ITI)",
+      subtitle: "Frontend and cross platform",
+      logo_path: "iti-logo.png",
+      alt_name: "ITI",
+      duration: "4/22 - 7/22",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence, Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
+        "⚡ Completed an intensive program in Frontend and cross-platform mobile development with a variety of courses.",
+        "⚡ Applied the learned technologies to multiple projects.",
+        "⚡ Graduation project focused on developing an E-commerce platform.",
       ],
-      website_link: "https://www.amrita.edu/",
+    },
+
+    {
+      title: "Yat Learning Center",
+      subtitle: "Diploma of Education, Web Development",
+      logo_path: "YAT-Learnming-Center-logopng.png",
+      alt_name: "YAT",
+      duration: "2017 - 2018",
+      descriptions: [
+        "⚡ Studied programming languages such as PHP and JavaScript during my diploma program.",
+        "⚡ Dedicated sufficient time to understanding databases, specifically the main concepts of KEYS, JOINS, VIEWS, NORMALIZATION, SUBQUERIES, CLONING TABLES, SQL SEQUENCE, and TEMPORARY TABLES.",
+        "⚡ Developed a school system website for my graduation project using PHP, SQL, and JQuery.",
+        "⚡ Gradutaion project: PHP/MySQL CRUD school application",
+      ],
     },
     {
-      title: "Guru Gobind Singh Indraprastha University, New Delhi",
-      subtitle: "Bachelors in Computer Applications (BCA)",
-      logo_path: "ggsipu_logo.png",
-      alt_name: "GGSIPU",
-      duration: "2018 - 2021",
+      title: "Tanta university",
+      subtitle: "Bachelor of Engineering (Computer Engineering)",
+      logo_path: "Tanta-university-logo.png",
+      alt_name: "Tanta-university-logo",
+      duration: "2015 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
+        "⚡ Completed a Bachelor's degree in Engineering with a specialization in Computer Science.",
+        "⚡ Studied computer programming, software engineering, and fundamental computer science concepts such as operating systems, computer networks, and databases.",
+        "⚡ Completed a successful graduation project in ecommerce using PHP and MySQL, earning an A+ degree.",
       ],
-      website_link: "http://www.ipu.ac.in/",
     },
   ],
-};
+}
 
 const certifications = {
   certifications: [
     {
-      title: "Front-End Developer Capstone",
+      title: "Professional Front-End Web Development",
       subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/f80912b58e3afcfa49e6116210a2c9da",
-      alt_name: "Meta",
-      color_code: "#096ce1",
+      logo_path: "logo-udacity.svg",
+      certificate_link: "https://graduation.udacity.com/confirm/MMQS2JFL",
+      alt_name: "Udacity",
+      color_code: "#2015ff",
     },
     {
-      title: "Advanced React",
+      title: "Full Stack Developer",
       subtitle: "",
-      logo_path: "meta_logo.png",
+      logo_path: "logo-udacity.svg",
       certificate_link:
-        "https://coursera.org/share/877acd7eaf9dd532a2cb5b103576967e",
-      alt_name: "Meta",
-      color_code: "#096ce1",
+        "https://drive.google.com/file/d/1ikCVEFId-sCL3M_jMGvyAwpFRLwexIbA/view",
+      alt_name: "Udacity",
+      color_code: "#2015ff",
     },
     {
-      title: "Java Programming: Build a Recommendation System",
+      title: "WEB DEVELOPMENT CHALLENGER TRACK (FWD)",
       subtitle: "",
-      logo_path: "duke-logo.jpg",
+      logo_path: "logo-udacity.svg",
       certificate_link:
-        "https://coursera.org/share/6af001cafc4b683bb38abdb9e81d0d79",
-      alt_name: "Duke University",
-      color_code: "#001a57",
+        "https://drive.google.com/file/d/1v9KEWdWrpEBNyXPhHZopYLT-aijx903L/view",
+      alt_name: "Udacity",
+      color_code: "#2015ff",
     },
     {
-      title: "React Basics",
+      title: "YAT Professional Diploma for Web Development",
       subtitle: "",
-      logo_path: "meta_logo.png",
+      logo_path: "YAT-Learnming-Center-logopng.png",
       certificate_link:
-        "https://coursera.org/share/29c75a387fcaf2f1e2403f73473092b2",
-      alt_name: "Meta",
-      color_code: "#096ce1",
+        "https://drive.google.com/file/d/15klbXR5X-y6b293AbsAkIVM7RHYxhUWS/view?usp=sharing",
+      alt_name: "YAT",
+      color_code: "#042653",
     },
     {
-      title: "Programming with JavaScript",
+      title: "Learning the JavaScript Language",
       subtitle: "",
-      logo_path: "meta_logo.png",
+      logo_path: "Linked-logo.png",
       certificate_link:
-        "https://coursera.org/share/cb44f1ee2db3f50b83a56cbae15fcc74",
-      alt_name: "Meta",
-      color_code: "#096ce1",
+        "https://drive.google.com/file/d/1cyhdyS9YJ5nkfr0OZRmR5VgZpiLAMxD7/view",
+      alt_name: "Linkedin",
+      color_code: "#ffffff",
     },
     {
-      title: "HTML and CSS in depth",
+      title: "JavaScript Essential Training",
       subtitle: "",
-      logo_path: "meta_logo.png",
+      logo_path: "Linked-logo.png",
       certificate_link:
-        "https://coursera.org/share/667de02731a480b76b5300c6612d174d",
-      alt_name: "Meta",
-      color_code: "#096ce1",
+        "https://www.linkedin.com/learning/certificates/35b3c14295c2e760bb126fae2358c3b3c48c0d2e5d9fa2e2abacfcffbb57d653?trk=share_certificate",
+      alt_name: "Linkedin",
+      color_code: "#ffffff",
     },
     {
-      title: "Java Programming: Principles of Software Design",
+      title: "Javascript ",
       subtitle: "",
-      logo_path: "duke-logo.jpg",
+      logo_path: "iti-logo.png",
       certificate_link:
-        "https://coursera.org/share/f4e9af47fbb24381e04031f3cc8cfd9f",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Java Programming: Solving Problems with Software",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/36411fcea7ea4fbb5c613ef4911f4668",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Programming Foundations with JavaScript, HTML and CSS",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/0269c76c33997304d1842d4eef16815b",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Android Application Development - II",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/GN48B7W9TU59",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Android Application Development - I",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Christian Hur",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD",
-      alt_name: "Coursera",
-      color_code: "#0056d2",
-    },
-    {
-      title: "ML and AI in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2862832",
-      alt_name: "GCP",
-      color_code: "#2fa9508a",
-    },
-    {
-      title: "Foundational Infrastructure in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2653409",
-      alt_name: "GCP",
-      color_code: "#4087f08a",
-    },
-    {
-      title: "Networking & Security in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2510430",
-      alt_name: "GCP",
-      color_code: "#eb40308a",
-    },
-    {
-      title: "Cloud Computing Fundamentals in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2469792",
-      alt_name: "GCP",
-      color_code: "#fabd008a",
+        "https://drive.google.com/file/d/1HRun9PoXTVoQGAW8AqOj3YUg-BBHmOtR/view",
+      alt_name: "Information Technology Institute (ITI)",
+      color_code: "#ffffff",
     },
   ],
-};
+}
 
 // Experience Page
 const experience = {
@@ -540,7 +469,7 @@ const experience = {
       },
     ],
   },
-};
+}
 
 // Projects Page
 const projectsHeader = {
@@ -548,7 +477,7 @@ const projectsHeader = {
   description:
     "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN and MEAN Stack Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
-};
+}
 
 const projects = {
   data: [
@@ -721,7 +650,7 @@ const projects = {
       ],
     },
   ],
-};
+}
 
 // Contact Page
 const contactPageData = {
@@ -731,7 +660,7 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-};
+}
 
 export {
   settings,
@@ -744,4 +673,4 @@ export {
   projectsHeader,
   contactPageData,
   projects,
-};
+}

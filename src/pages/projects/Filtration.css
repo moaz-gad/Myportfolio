@@ -1,0 +1,25 @@
+.labels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button.active {
+  color: #fff;
+  background-color: #007bff;
+}

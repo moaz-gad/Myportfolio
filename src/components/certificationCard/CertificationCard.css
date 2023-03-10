@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #d9dbdf;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 1px 1px 1px 1px rgb(226, 120, 108);
   border-radius: 7px;
   margin-bottom: 30px;
   flex: 0 0 30%;
