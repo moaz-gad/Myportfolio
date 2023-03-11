@@ -57,52 +57,6 @@ function Projects(props) {
 
       <div className="project-list">
         {filteredData.map((project) => (
-          // <div className="project-card">
-          //   <img src={project.image} alt={project.name} />
-          //   <h2>{project.name}</h2>
-          //   <p>{project.description}</p>
-          //   <div className="details">
-          //     <ul className="technologies">
-          //       {project.technologies.map((tech) => (
-          //         <li key={tech}>{tech}</li>
-          //       ))}
-          //     </ul>
-          //   </div>
-          //   <div className="project-buttons">
-          //     <a href={project.githubUrl}>GitHub</a>
-          //     <a href={project.demoUrl}>Live Demo</a>
-          //   </div>
-          // </div>
-
-          // <div className="project-card">
-          //   <img src={project.imageSrc} alt={project.name} />
-          //   <div className="project-info">
-          //     <h2>{project.name}</h2>
-          //     <p>{project.description}</p>
-          //     <ul>
-          //       {project.technologies.map((technology) => (
-          //         <li key={technology}>{technology}</li>
-          //       ))}
-          //     </ul>
-          //     <div className="project-buttons">
-          //       <a
-          //         href={project.githubLink}
-          //         target="_blank"
-          //         rel="noopener noreferrer"
-          //       >
-          //         Github
-          //       </a>
-          //       <a
-          //         href={project.liveDemoLink}
-          //         target="_blank"
-          //         rel="noopener noreferrer"
-          //       >
-          //         Live Demo
-          //       </a>
-          //     </div>
-          //   </div>
-          // </div>
-
           <div key={project.id} className="project">
             <div className="image-container">
               <img src={project.imageSrc} alt={project.name} />

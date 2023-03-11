@@ -52,7 +52,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+html {
+  overflow-x: auto !important;
+}
 html,
 body {
   scroll-behavior: smooth;
@@ -63,6 +65,7 @@ body {
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
