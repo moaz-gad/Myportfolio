@@ -1,11 +1,22 @@
 .projects-main {
-  width: 100%;
+  padding: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(226, 120, 108);
+  border-bottom: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgb(226, 120, 108);
 }
+
 .project-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
 .project {
@@ -15,6 +26,8 @@
   border-radius: 10px;
   box-shadow: 1px 1px 20px rgb(226, 120, 108);
   transition: box-shadow 0.3s ease-in-out;
+  padding-bottom: 1em;
+  max-height: 500px;
 }
 
 .project:hover {
@@ -22,57 +35,51 @@
 }
 
 .image-container {
-  height: 60%;
-  overflow: hidden;
-  border-radius: 10px;
+  height: 50%;
 }
-
 .image-container img {
+  width: 100%;
+  border-radius: 10px;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 
 .details-container {
-  background-color: red;
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 0 10px;
 }
 
-.header {
+.links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.header h2 {
-  font-size: 24px;
-  margin: 0;
-}
-
 .links a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  cursor: pointer;
   display: inline-block;
   margin-left: 10px;
   padding: 5px 10px;
-  border: 1px solid #444;
-  border-radius: 5px;
-  color: #444;
   font-size: 16px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 -5px 15px rgb(226, 120, 108);
 }
 
 .links a:hover {
-  background-color: #444;
   color: #fff;
+  box-shadow: none;
 }
 
 .description {
   flex: 1;
-  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 16px;
   line-height: 1.5;
 }
