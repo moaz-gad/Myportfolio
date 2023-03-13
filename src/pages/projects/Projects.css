@@ -1,3 +1,7 @@
+h1.portfolio-header {
+  text-align: center;
+}
+
 .projects-main {
   padding: 2em;
   margin-top: 5em;
@@ -99,4 +103,18 @@
   font-size: 14px;
   font-weight: bold;
   color: #444;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+/*************** MEDIA QUERIES (SMALL DEVICES) ***************/
+@media screen and (max-width: 600px) {
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

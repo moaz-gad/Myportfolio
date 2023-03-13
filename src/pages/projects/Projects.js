@@ -121,7 +121,9 @@ function Projects(props) {
     <>
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="projects-main">
-        <h1>Some of projects I worked on </h1>
+        <h1 className="portfolio-header">
+          Just some of the projects I worked on.
+        </h1>
         <Filtration
           data={data}
           setData={setData}
