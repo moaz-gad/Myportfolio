@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6cdda45a1af2a2b2d0f2",
-    "url": "/Myportfolio/static/css/main.4a71a91b.chunk.css"
+    "revision": "5737b6e723fd53fbd83b",
+    "url": "/Myportfolio/static/css/main.7ddb7788.chunk.css"
   },
   {
-    "revision": "6cdda45a1af2a2b2d0f2",
-    "url": "/Myportfolio/static/js/main.6cdda45a.chunk.js"
+    "revision": "5737b6e723fd53fbd83b",
+    "url": "/Myportfolio/static/js/main.5737b6e7.chunk.js"
   },
   {
-    "revision": "0649babc04ce7d8fc631",
-    "url": "/Myportfolio/static/css/1.403c835c.chunk.css"
+    "revision": "72d3b416edb2ab88c8c5",
+    "url": "/Myportfolio/static/css/1.c5c6fd8b.chunk.css"
   },
   {
-    "revision": "0649babc04ce7d8fc631",
-    "url": "/Myportfolio/static/js/1.0649babc.chunk.js"
+    "revision": "72d3b416edb2ab88c8c5",
+    "url": "/Myportfolio/static/js/1.72d3b416.chunk.js"
   },
   {
     "revision": "5063639defb5ef8b01bd",
@@ -60,48 +60,44 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/souqElGomaa.6b33ff5f.png"
   },
   {
-    "revision": "ce1051e1c8cd965afa2fa2a53a9b637b",
-    "url": "/Myportfolio/static/media/portfolioProfileImage.ce1051e1.png"
-  },
-  {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/Myportfolio/static/media/Agustina.21f233e1.woff"
-  },
-  {
-    "revision": "90773b6158663ab0fe78b32680733677",
-    "url": "/Myportfolio/static/media/GoogleSans-BoldItalic.90773b61.ttf"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/Myportfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
-    "url": "/Myportfolio/static/media/GoogleSans-Italic.0ecddcde.ttf"
+    "revision": "4457817ac2b9993c65e81aa05828fe9c",
+    "url": "/Myportfolio/static/media/GoogleSans-Bold.4457817a.ttf"
   },
   {
     "revision": "8fd3737925e83c87d78a13700ccf9a62",
     "url": "/Myportfolio/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
   },
   {
-    "revision": "4457817ac2b9993c65e81aa05828fe9c",
-    "url": "/Myportfolio/static/media/GoogleSans-Bold.4457817a.ttf"
+    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
+    "url": "/Myportfolio/static/media/GoogleSans-Italic.0ecddcde.ttf"
   },
   {
-    "revision": "b5c77a6aed75cdad9489effd0d5ea411",
-    "url": "/Myportfolio/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+    "revision": "90773b6158663ab0fe78b32680733677",
+    "url": "/Myportfolio/static/media/GoogleSans-BoldItalic.90773b61.ttf"
   },
   {
     "revision": "8d57e4014b18edef070d285746485115",
     "url": "/Myportfolio/static/media/GoogleSans-Medium.8d57e401.ttf"
   },
   {
+    "revision": "b5c77a6aed75cdad9489effd0d5ea411",
+    "url": "/Myportfolio/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+  },
+  {
     "revision": "5063b105c7646c8043d58c5289f02cca",
     "url": "/Myportfolio/static/media/fa-brands-400.5063b105.eot"
   },
   {
-    "revision": "cccc9d29470e879e40eb70249d9a2705",
-    "url": "/Myportfolio/static/media/fa-brands-400.cccc9d29.woff2"
+    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
+    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -112,8 +108,8 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-regular-400.f5f2566b.woff2"
   },
   {
-    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
-    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
+    "revision": "cccc9d29470e879e40eb70249d9a2705",
+    "url": "/Myportfolio/static/media/fa-brands-400.cccc9d29.woff2"
   },
   {
     "revision": "c1a866ec0e04a5e1915b41fcf261457c",
@@ -128,16 +124,12 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
-    "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
-  },
-  {
     "revision": "9443c1e7fdf95d739af3f0901224f90a",
     "url": "/Myportfolio/static/media/fa-regular-400.9443c1e7.svg"
   },
   {
-    "revision": "333bae208dc363746961b234ff6c2500",
-    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
+    "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
+    "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
@@ -146,6 +138,10 @@ self.__precacheManifest = [
   {
     "revision": "0bff33a5fd7ec390235476b4859747a0",
     "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
+  },
+  {
+    "revision": "333bae208dc363746961b234ff6c2500",
+    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
     "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
@@ -188,7 +184,11 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/maryland_logo.225c8df3.svg"
   },
   {
-    "revision": "97ce6057ffa831d8215562045c86f65a",
+    "revision": "ce1051e1c8cd965afa2fa2a53a9b637b",
+    "url": "/Myportfolio/static/media/portfolioProfileImage.ce1051e1.png"
+  },
+  {
+    "revision": "e1ff5b11352c833e42fe7b10ae6dec66",
     "url": "/Myportfolio/index.html"
   }
 ];
