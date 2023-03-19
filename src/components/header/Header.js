@@ -1,19 +1,30 @@
+import { NavLink, Link } from "react-router-dom"
 import React, { useState } from "react"
 import "./Header.css"
-import { NavLink, Link } from "react-router-dom"
-function Header() {
-  const [showLinks, setShowLinks] = useState(false)
 
-  const handleToggleClick = () => {
-    setShowLinks(!showLinks)
+function Header() {
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  const handleMenuClick = () => {
+    setIsExpanded(!isExpanded)
+  }
+
+  const handleMenuClose = () => {
+    setIsExpanded(false)
   }
 
   return (
-    <nav>
-      <div className="menu-icon" onClick={handleToggleClick}>
-        <i className={showLinks ? "fas fa-times" : "fas fa-bars"}></i>
-      </div>
-      <ul className={showLinks ? "show" : ""}>
+    <nav className={`navbar ${isExpanded ? "expanded" : ""}`}>
+      {!isExpanded ? (
+        <div className="menu-icon" onClick={handleMenuClick}>
+          <i className="fas fa-bars"></i>
+        </div>
+      ) : (
+        <div className="close-icon" onClick={handleMenuClose}>
+          <i className="fas fa-times"></i>
+        </div>
+      )}
+      <ul className={`menu-items ${isExpanded ? "show" : ""}`}>
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? "current-link" : "homei")}
@@ -21,24 +32,6 @@ function Header() {
             tag={Link}
           >
             Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) => (isActive ? "current-link" : "homei")}
-            to="/education"
-            tag={Link}
-          >
-            Education
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) => (isActive ? "current-link" : "homei")}
-            to="/experience"
-            tag={Link}
-          >
-            Experience
           </NavLink>
         </li>
         <li>
@@ -53,10 +46,19 @@ function Header() {
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? "current-link" : "homei")}
-            to="/contact"
+            to="/experience"
             tag={Link}
           >
-            Contact
+            Experience
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "current-link" : "homei")}
+            to="/education"
+            tag={Link}
+          >
+            Education
           </NavLink>
         </li>
       </ul>

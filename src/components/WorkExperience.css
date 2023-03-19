@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2em;
-  border-bottom: 1px solid rgb(226, 120, 108);
+  border-bottom: 1px solid var(--mainColor);
   border-bottom-width: medium;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .work-experience-header h2 {
-  color: rgb(226, 120, 108);
+  color: var(--mainColor);
 }
 
 .work-experience-company {
@@ -25,7 +25,7 @@
 
 .work-experience-dates {
   margin: 0;
-  color: rgb(226, 120, 108);
+  color: var(--mainColor);
 }
 
 .work-experience-job-title {

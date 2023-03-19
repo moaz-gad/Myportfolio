@@ -24,14 +24,12 @@
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
-  font-family: "Google Sans Bold Italic";
 }
 
 .greeting-text-div {
   font-size: 22px;
   margin-bottom: 40px;
   display: inline-flex;
-  font-family: "Google Sans Medium";
   min-width: 60%;
 }
 
@@ -73,7 +71,7 @@ div.about-me p {
   font-size: 18px;
 }
 div.about-me span a {
-  color: rgb(226, 120, 108);
+  color: var(--mainColor);
   text-decoration: none;
 }
 div.about-me span a:hover {
@@ -87,11 +85,11 @@ div.about-me span a:hover {
   margin-bottom: 20px;
   margin-right: 1em;
   font-weight: bold;
-  font-family: "Google Sans Regular";
+
   font-size: 17px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-  box-shadow: 0 5px 15px rgb(226, 120, 108);
+  box-shadow: 0 5px 15px var(--mainColor);
 }
 .button:hover {
   box-shadow: none;

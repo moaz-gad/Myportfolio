@@ -25,7 +25,7 @@ export default function Greeting(props) {
                   typewriter
                     .pauseFor(500)
                     .typeString(
-                      `<span style="color: ${theme.accentColor}">${greeting.subTitle}</span>`
+                      `<span style="color: white">${greeting.subTitle}</span>`
                     )
 
                     .start()

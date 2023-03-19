@@ -6,7 +6,6 @@ import { CursorProvider } from "react-cursor-custom"
 import { settings } from "./portfolio"
 import { TooltipProvider } from "react-tooltip"
 import Main from "./containers/Main"
-import "./App.css"
 import "react-tooltip/dist/react-tooltip.css"
 
 function App() {

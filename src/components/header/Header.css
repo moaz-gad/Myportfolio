@@ -4,10 +4,18 @@ nav {
   align-items: center;
   height: 60px;
   padding: 0 20px;
+  background-color: aliceblue;
+  color: black;
+  position: relative;
+  transition: width 0.3s ease-in-out; /* add a transition for smoother animation */
+  width: 50%;
+  /* start with a small width */
+  box-shadow: 2px 0px 10px var(--mainColor);
+  z-index: 1000;
+}
 
-  color: #fff;
-  position: relative; /* add position relative */
-  z-index: 999;
+nav.expanded {
+  width: 100%; /* expand the navbar to cover the entire screen */
 }
 
 .menu-icon {
@@ -18,11 +26,11 @@ nav {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
-
+  background-color: #333;
   margin-left: 20px;
-  position: absolute; /* add position absolute */
-  top: 10px; /* adjust the top position */
-  right: 20px; /* move the menu icon to the right side */
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 
 .menu-icon i {
@@ -31,14 +39,15 @@ nav {
 }
 
 ul {
-  position: absolute; /* add position absolute */
-  right: 0; /* set right to 0 */
-  top: 60px; /* adjust the top position */
-  background-color: #333;
+  position: absolute;
+  right: 0;
+  top: 60px;
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 100%; /* set the width to 100% to cover the entire screen */
   display: none;
+  background-color: var(--mainColor);
 }
 
 ul.show {
@@ -53,11 +62,28 @@ ul li {
 ul li a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
 ul li a:hover {
-  background-color: #444;
+  background-color: white;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #333;
+  margin-left: auto;
+}
+
+.close-icon i {
+  font-size: 1.5rem;
+  color: #fff;
 }
