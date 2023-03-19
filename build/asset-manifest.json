@@ -1,7 +1,7 @@
 {
-  "main.css": "/Myportfolio/static/css/main.a89700aa.chunk.css",
-  "main.js": "/Myportfolio/static/js/main.06889687.chunk.js",
-  "main.js.map": "/Myportfolio/static/js/main.06889687.chunk.js.map",
+  "main.css": "/Myportfolio/static/css/main.4a71a91b.chunk.css",
+  "main.js": "/Myportfolio/static/js/main.6cdda45a.chunk.js",
+  "main.js.map": "/Myportfolio/static/js/main.6cdda45a.chunk.js.map",
   "static/css/1.403c835c.chunk.css": "/Myportfolio/static/css/1.403c835c.chunk.css",
   "static/js/1.0649babc.chunk.js": "/Myportfolio/static/js/1.0649babc.chunk.js",
   "static/js/1.0649babc.chunk.js.map": "/Myportfolio/static/js/1.0649babc.chunk.js.map",
@@ -28,9 +28,9 @@
   "static/media/iti-logo.png": "/Myportfolio/static/media/iti-logo.68c6f35b.png",
   "static/media/logo-udacity.svg": "/Myportfolio/static/media/logo-udacity.812f63b4.svg",
   "static/media/maryland_logo.svg": "/Myportfolio/static/media/maryland_logo.225c8df3.svg",
-  "static/css/main.a89700aa.chunk.css.map": "/Myportfolio/static/css/main.a89700aa.chunk.css.map",
+  "static/css/main.4a71a91b.chunk.css.map": "/Myportfolio/static/css/main.4a71a91b.chunk.css.map",
   "static/css/1.403c835c.chunk.css.map": "/Myportfolio/static/css/1.403c835c.chunk.css.map",
   "index.html": "/Myportfolio/index.html",
-  "precache-manifest.add8dfc6ed5da0cad2812ec978f87c6b.js": "/Myportfolio/precache-manifest.add8dfc6ed5da0cad2812ec978f87c6b.js",
+  "precache-manifest.206b35aaccc5443343cce7df67e31a8f.js": "/Myportfolio/precache-manifest.206b35aaccc5443343cce7df67e31a8f.js",
   "service-worker.js": "/Myportfolio/service-worker.js"
 }

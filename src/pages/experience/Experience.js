@@ -1,10 +1,7 @@
 import React from "react"
 import Header from "../../components/header/Header"
-import Footer from "../../components/footer/Footer"
 import WorkExperience from "../../components/WorkExperience"
 import "./Experience.css"
-import { experience } from "../../portfolio.js"
-import { style } from "glamor"
 
 function Experience(props) {
   const theme = props.theme

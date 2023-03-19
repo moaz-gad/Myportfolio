@@ -91,6 +91,10 @@ div.about-me span a:hover {
   font-size: 17px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  box-shadow: 0 5px 15px rgb(226, 120, 108);
+}
+.button:hover {
+  box-shadow: none;
 }
 
 /* Media Query */

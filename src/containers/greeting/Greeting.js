@@ -1,17 +1,10 @@
 import React from "react"
 import { greeting } from "../../portfolio"
-import { style } from "glamor"
 import Typewriter from "typewriter-effect"
 import "./Greeting.css"
 export default function Greeting(props) {
   const theme = props.theme
 
-  const styles = style({
-    boxShadow: `0 5px 15px ${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `none`,
-    },
-  })
   return (
     <div className="greet-main" id="greeting">
       <div className="greeting-main">
@@ -44,7 +37,6 @@ export default function Greeting(props) {
               <div className="btns-container">
                 <div className="portfolio-repo-btn-div">
                   <a
-                    {...styles}
                     className="button"
                     rel="noopener noreferrer"
                     href="./#/projects"
@@ -54,7 +46,6 @@ export default function Greeting(props) {
                 </div>
                 <div className="portfolio-repo-btn-div">
                   <a
-                    {...styles}
                     className="button"
                     rel="noopener noreferrer"
                     href="./#/contact"
