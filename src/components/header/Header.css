@@ -38,7 +38,7 @@ nav.expanded {
   color: #fff;
 }
 
-ul {
+nav ul {
   position: absolute;
   right: 0;
   top: 60px;

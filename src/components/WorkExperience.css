@@ -37,3 +37,6 @@
 .work-experience-description {
   margin: 0;
 }
+.work-experience-description li {
+  margin-top: 1em;
+}

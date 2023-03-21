@@ -24,7 +24,10 @@ function Header() {
           <i className="fas fa-times"></i>
         </div>
       )}
-      <ul className={`menu-items ${isExpanded ? "show" : ""}`}>
+      <ul
+        id="header-items"
+        className={`menu-items ${isExpanded ? "show" : ""}`}
+      >
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? "current-link" : "homei")}

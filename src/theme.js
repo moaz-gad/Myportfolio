@@ -6,7 +6,7 @@ const darkTheme = {
   dark: "#000000",
   ternaryText: "#FFFFFF",
   themeColor: "#1d1d1d",
-  accentColor: "rgb(226, 120, 108)",
+  accentColor: "rgb(254, 220, 86)",
   accentBright: "rgb(226, 120, 108)",
 }
 

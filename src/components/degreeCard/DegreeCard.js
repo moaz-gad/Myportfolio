@@ -35,20 +35,11 @@ function DegreeCard(props) {
             style={{ backgroundColor: theme.accentColor }}
           >
             <div className="body-header-title">
-              <span className="card-title" style={{ color: theme.ternaryText }}>
-                {degree.title}
-              </span>
-              <span
-                className="card-subtitle"
-                style={{ color: theme.ternaryText }}
-              >
-                {degree.subtitle}
-              </span>
+              <span className="card-title">{degree.title}</span>
+              <span className="card-subtitle">{degree.subtitle}</span>
             </div>
             <div className="body-header-duration">
-              <span className="duration" style={{ color: theme.ternaryText }}>
-                {degree.duration}
-              </span>
+              <span className="duration">{degree.duration}</span>
             </div>
           </div>
           <div className="body-content">

@@ -15,35 +15,33 @@ function Experience(props) {
           startDate="Sep 2022"
           endDate="Present"
           description={[
-            " Created a lot of websites for clients using React/Jquery and Bootstrap.",
-            " Used advanced CSS for styling.",
-            " Participated in maintaining several sustainable websites.",
-            " Gained a lot of knowledge about marketing, campaigns, and promotions; due to the nature of the company's activity.",
+            " Developed and maintained over 10 projects for clients in various industries using React, jQuery, and advanced CSS. ",
+            " Collaborated with designers to ensure high-quality designs were implemented into all projects.",
+            "  Gained experience in marketing by working with clients in the marketing industry, and incorporating marketing strategies into frontend development projects.",
+            " Optimized frontend code and implemented best practices to improve performance and user experience across all projects.",
           ]}
         />
         <WorkExperience
           company="MTV "
-          jobTitle="Frontend/Wordpress Developer"
+          jobTitle="Frontend Developer"
           startDate="Apr 2022 "
           endDate=" Sep 2022 "
           description={[
-            " Worked on designing/maintaining websites, and improving performance.",
-            " Dealt with WordPress hooks and rest APIs.",
-            " Built custom WordPress themes and plugins.",
-            " Converted HTML/CSS code to WordPress pages.",
-            " Styled big e-commerce using Bootstrap framework.",
-            " Built different e-commerce using Woocommerce.",
+            " Developed and maintained an e-commerce website using JavaScript and Bootstrap, resulting in a modern and user-friendly interface.",
+            " Utilized Bootstrap's responsive design capabilities to ensure the website was optimized for all screen sizes and devices.",
+            " Collaborated with the backend development team to ensure seamless integration between frontend and backend code for an efficient and streamlined e-commerce experience.",
           ]}
         />
         <WorkExperience
           company=" Freelance "
-          jobTitle=" Wordpress Developer & SEO Specialist"
+          jobTitle=" Fullstack Web Developer & SEO Specialist"
           startDate="Jan 2017"
           endDate="May 2020"
           description={[
-            " Built a CMS website with custom functions and CSS for a tech company.",
-            "	Dealt with different plugins and themes.",
-            "Improved content for many websites to be SEO friendly.",
+            " Developed and deployed multiple web applications using PHP, JavaScript, and other relevant technologies, working on both frontend and backend development.",
+            " Utilized SEO strategies to improve website visibility and increase organic traffic for clients, resulting in improved search engine rankings and higher engagement.",
+            " Collaborated with clients to understand their business requirements and provided customized web development solutions to meet their needs.",
+            " Implemented security measures and best practices to ensure website security and integrity, while optimizing website performance and speed.",
           ]}
         />
       </div>
