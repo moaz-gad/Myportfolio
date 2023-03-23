@@ -11,6 +11,7 @@ import paramount from "../../assets/images/paramount.png"
 import infraFit from "../../assets/images/infraFit.png"
 import reactPortfolio from "../../assets/images/react-portfolio.png"
 import memoryGame from "../../assets/images/memory-game.png"
+import toDoList from "../../assets/images/To-Do-List.png"
 function Projects(props) {
   const theme = props.theme
   const [data, setData] = useState([
@@ -107,6 +108,17 @@ function Projects(props) {
       demoUrl: "https://moaz-gad.github.io/React-memory-game-project/",
       imageSrc: memoryGame,
     },
+    {
+      id: 11,
+      label: "React",
+      name: "To DO List",
+      description:
+        "A straightforward task that involves the implementation of CRUD operations.",
+      technologies: ["React", "Css"],
+      githubUrl: "https://github.com/moaz-gad/To-Do-List/",
+      demoUrl: "https://moaz-gad.github.io/To-Do-List/",
+      imageSrc: toDoList,
+    },
     // more project objects here
   ])
 
@@ -148,7 +160,7 @@ function Projects(props) {
                   ))}
                 </div>
                 <div className="links">
-                  <a target="_blank" href={project.github}>
+                  <a target="_blank" href={project.githubUrl}>
                     Github
                   </a>
                   <a target="_blank" href={project.demoUrl}>
