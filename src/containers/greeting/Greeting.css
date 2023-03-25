@@ -3,7 +3,9 @@
   padding: 10px 20px;
   margin: 0px auto;
   margin-top: 2rem;
-  display: block;
+  display: flex;
+  height: 100vh;
+  align-items: center;
 }
 
 .greeting-main {
@@ -62,7 +64,7 @@
 .cta-container {
   display: flex;
   padding-top: 2rem;
-  align-items: center;
+  align-items: start;
 }
 .btns-container {
   display: flex;
@@ -85,14 +87,15 @@ div.about-me span a:hover {
   margin-bottom: 20px;
   margin-right: 1em;
   font-weight: bold;
-
   font-size: 17px;
-  transition: all 0.2s ease-in-out;
   cursor: pointer;
-  box-shadow: 0 5px 15px var(--mainColor);
+  border: 1px solid var(--mainColor);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
 }
 .button:hover {
-  box-shadow: none;
+  transform: scale(1.1);
+  /* background-color: var(--mainColor); */
 }
 
 /* Media Query */
@@ -155,7 +158,12 @@ div.about-me span a:hover {
   }
 
   .button {
-    padding: 8px 8px;
-    font-size: 15px;
+    padding: 7px;
+    font-size: 12px;
+    width: max-content;
+  }
+
+  .cta-container {
+    align-items: center;
   }
 }
