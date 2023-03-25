@@ -134,6 +134,10 @@ function Header() {
               Contact
             </NavLink>
           </li>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" className="menu-close">
+            <i className="fa fa-window-close"></i>
+          </label>
         </ul>
       </div>
     </>

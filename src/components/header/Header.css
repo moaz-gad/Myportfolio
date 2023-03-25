@@ -57,7 +57,14 @@
   color: black;
   cursor: pointer;
 }
-
+.menu-close {
+  margin-top: 1em;
+  display: block;
+  cursor: pointer;
+}
+.menu-close i {
+  font-size: 2em;
+}
 /*-- The Magic --*/
 #menu-toggle:checked ~ .slideout-sidebar {
   right: 0px;
@@ -67,28 +74,9 @@
   right: 210px;
 }
 
-#menu-toggle:checked ~ .content-container {
-  padding-right: 190px;
-}
-
 /* -- Media Queries -- */
 
-@media (max-width: 991px) {
-  .content-container {
-    max-width: 480px;
-  }
-}
-
 @media (max-width: 767px) {
-  .content-container {
-    max-width: 100%;
-    margin: 30px auto 0;
-  }
-
-  #menu-toggle:checked ~ .content-container {
-    padding-right: 0;
-  }
-
   .slideout-sidebar ul {
     text-align: center;
     max-width: 200px;
