@@ -5,7 +5,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia"
 import { Fade } from "react-reveal"
 import { contactPageData } from "../../portfolio.js"
 import "./ContactComponent.css"
-
 const ContactData = contactPageData.contactSection
 
 export default function Contact(props) {

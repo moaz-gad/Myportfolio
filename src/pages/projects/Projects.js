@@ -12,6 +12,8 @@ import infraFit from "../../assets/images/infraFit.png"
 import reactPortfolio from "../../assets/images/react-portfolio.png"
 import memoryGame from "../../assets/images/memory-game.png"
 import toDoList from "../../assets/images/To-Do-List.png"
+import Contact from "./../../pages/contact/ContactComponent"
+
 function Projects(props) {
   const theme = props.theme
   const [data, setData] = useState([
@@ -191,6 +193,9 @@ function Projects(props) {
             </div>
           </div>
         ))}
+      </div>
+      <div className="contact-section">
+        <Contact theme={props.theme} />
       </div>
     </>
   )

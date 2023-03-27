@@ -225,3 +225,19 @@
     padding-left: 25px;
   }
 }
+
+.contact-section {
+  padding-bottom: 1em;
+  background-color: #fff;
+  color: #000 !important;
+}
+.contact-section h1 {
+  color: #000 !important;
+}
+
+@media (max-width: 1240px) {
+  .projects-wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
