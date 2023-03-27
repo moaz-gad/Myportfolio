@@ -149,7 +149,7 @@ function Projects(props) {
 
   return (
     <>
-      <Header theme={theme} setTheme={props.setTheme} />
+      {/* <Header theme={theme} setTheme={props.setTheme} /> */}
       <Filtration
         data={data}
         setData={setData}
