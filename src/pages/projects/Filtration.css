@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 10em;
   gap: 10px;
   margin-bottom: 20px;
   padding: 1em;
@@ -14,7 +14,6 @@ button {
   display: inline-block;
   font-size: 1em;
   padding: 1em 2em;
-  margin-top: 100px;
   margin-bottom: 60px;
   -webkit-appearance: none;
   appearance: none;
