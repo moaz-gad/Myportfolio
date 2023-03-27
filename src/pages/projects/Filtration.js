@@ -10,6 +10,15 @@ const Filtration = ({ data, onFilterChange }) => {
     const filteredData = data.filter((element) => element.label === label)
     onFilterChange(filteredData)
   }
+  const animateButton = (e) => {
+    e.preventDefault()
+    // reset animation
+    e.target.classList.remove("animate")
+    e.target.classList.add("animate")
+    setTimeout(() => {
+      e.target.classList.remove("animate")
+    }, 900)
+  }
 
   return (
     <div className="filtration">
@@ -18,7 +27,10 @@ const Filtration = ({ data, onFilterChange }) => {
           <button
             key={index}
             className={activeLabel === label ? "active" : ""}
-            onClick={() => handleClick(label)}
+            onClick={(e) => {
+              animateButton(e)
+              setTimeout(() => handleClick(label), 600)
+            }}
           >
             {label}
           </button>
