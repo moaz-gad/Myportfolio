@@ -1,51 +1,12 @@
 .greet-main {
   width: 100%;
   padding: 2rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
-  margin: 0px auto;
+  padding-left: 4rem;
   margin-top: 2rem;
   display: flex;
   align-items: center;
   height: 100vh;
   justify-content: space-between;
-}
-
-.greeting-main > * {
-  /* flex: 1; */
-  margin-bottom: 30px;
-}
-
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
-}
-
-.greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
-}
-
-.greeting-text-div {
-  font-size: 22px;
-  margin-bottom: 40px;
-  display: inline-flex;
-  min-width: 60%;
-}
-
-.greeting-text-static {
-  margin-right: 5px;
-}
-
-.greeting-image-div > * {
-  max-width: 100%;
-  height: auto;
-}
-
-.greeting-image-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .cta-container {
@@ -82,79 +43,29 @@ div.about-me span a:hover {
 }
 .button:hover {
   transform: scale(1.1);
-  /* background-color: var(--mainColor); */
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-
-  .greeting-text-div {
-    font-size: 30px;
-    margin-bottom: 20px;
-    /* text-align: center; */
-  }
-
-  .greet-main {
-    max-width: 900px;
-  }
 }
 
 @media (max-width: 768px) {
   .greet-main {
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
-
-  .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
+  .greeting-intro {
     text-align: center;
   }
-
-  .greeting-text-container {
-    text-align: center;
-  }
-  .greeting-text-container h3 {
-    font-size: 1em;
-  }
-
-  .greeting-text-div {
-    font-size: 15px !important;
-    margin-right: 0px;
-    line-height: normal;
-    margin-bottom: 20px;
-    /* text-align: center; */
-  }
-
-  .greeting-main {
-    /* display: block; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .portfolio-repo-btn-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
   .cta-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .button {
     padding: 7px;
     font-size: 12px;
     width: max-content;
-  }
-
-  .cta-container {
-    align-items: center;
   }
 }

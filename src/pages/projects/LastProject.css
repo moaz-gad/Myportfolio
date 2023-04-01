@@ -1,8 +1,7 @@
 .last-project {
   text-align: center;
   user-select: none;
-  max-width: 400px;
-  margin: 5rem auto;
+  max-width: 550px;
   border: 1px solid var(--mainColor);
   background-color: #282c34;
   background: linear-gradient(
@@ -131,4 +130,15 @@
   filter: brightness(0.5);
   top: -100%;
   left: 200%;
+}
+
+@media (max-width: 1380px) {
+  .last-project {
+  }
+}
+
+@media (max-width: 768px) {
+  .last-project {
+    font-size: 12px;
+  }
 }
