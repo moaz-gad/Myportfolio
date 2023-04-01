@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "90e465f47d52f765f5fd",
-    "url": "/Myportfolio/static/css/main.9b3767a9.chunk.css"
+    "revision": "829760b211a2f30e1d09",
+    "url": "/Myportfolio/static/css/main.fe82a346.chunk.css"
   },
   {
-    "revision": "90e465f47d52f765f5fd",
-    "url": "/Myportfolio/static/js/main.6aa78246.chunk.js"
+    "revision": "829760b211a2f30e1d09",
+    "url": "/Myportfolio/static/js/main.e1e1441a.chunk.js"
   },
   {
     "revision": "91fb02f18fbfdcad6b02",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/js/2.4ea4a6b1.chunk.js"
   },
   {
-    "revision": "89432cffe9394707d8e5aac92c309df9",
-    "url": "/Myportfolio/static/media/gpt.89432cff.png"
+    "revision": "500d22b226563aff6bcd580983f15b09",
+    "url": "/Myportfolio/static/media/gpt.500d22b2.png"
   },
   {
     "revision": "845b71b8e5cdcdd28c5cbbc5f3c26806",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/souqElGomaa.4f211a68.png"
   },
   {
-    "revision": "5063b105c7646c8043d58c5289f02cca",
-    "url": "/Myportfolio/static/media/fa-brands-400.5063b105.eot"
-  },
-  {
     "revision": "c5e0f14f88a828261ba01558ce2bf26f",
     "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
+  },
+  {
+    "revision": "5063b105c7646c8043d58c5289f02cca",
+    "url": "/Myportfolio/static/media/fa-brands-400.5063b105.eot"
   },
   {
     "revision": "cccc9d29470e879e40eb70249d9a2705",
@@ -84,20 +84,20 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-brands-400.06147b6c.ttf"
   },
   {
-    "revision": "65b286af947c0d982ca01b40e1fcab38",
-    "url": "/Myportfolio/static/media/fa-regular-400.65b286af.ttf"
+    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
+    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
   },
   {
     "revision": "f5f2566b93e89391da4db79462b8078b",
     "url": "/Myportfolio/static/media/fa-regular-400.f5f2566b.woff2"
   },
   {
-    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
-    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
-  },
-  {
     "revision": "c4f508e7c4f01a9eeba7f08155cde04e",
     "url": "/Myportfolio/static/media/fa-regular-400.c4f508e7.woff"
+  },
+  {
+    "revision": "65b286af947c0d982ca01b40e1fcab38",
+    "url": "/Myportfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
     "revision": "9443c1e7fdf95d739af3f0901224f90a",
@@ -112,16 +112,16 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "333bae208dc363746961b234ff6c2500",
-    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
+    "revision": "0bff33a5fd7ec390235476b4859747a0",
+    "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
   },
   {
     "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
     "url": "/Myportfolio/static/media/fa-brands-400.9d204f50.svg"
   },
   {
-    "revision": "0bff33a5fd7ec390235476b4859747a0",
-    "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
+    "revision": "333bae208dc363746961b234ff6c2500",
+    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
     "revision": "3d102342391af184d5ae9e7708d8220f",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/portfolioProfileImage.ce1051e1.png"
   },
   {
-    "revision": "21e73c78642426b3fa808adbd9833a0a",
+    "revision": "4a30fec691e3a46a4ae5b87e0dce496c",
     "url": "/Myportfolio/index.html"
   }
 ];
