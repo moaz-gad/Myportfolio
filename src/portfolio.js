@@ -13,7 +13,7 @@ const greeting = {
   logo_name: "Moaz Gad",
   // nickname: "harry / picleric",
   full_name: "Moaz Gad",
-  subTitle: "excited to share my work with you",
+  subTitle: "I'm excited to share my work with you",
   resumeLink:
     "https://drive.google.com/file/d/1lFqkZnNUg5N2muUuv6qIF6so6xloY6-4/view?usp=sharing",
   mail: "mailto:sumitsharma9968@gmail.com",

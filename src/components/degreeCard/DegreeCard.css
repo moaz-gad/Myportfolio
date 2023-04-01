@@ -1,131 +1,48 @@
 .degree-card {
   display: flex;
-  width: 100%;
-  gap: 20px;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-
-.card-title {
-  font-size: 18px;
-  color: black;
-}
-.card-subtitle {
-  font-size: 16px;
-  margin-top: 7px;
-  margin-bottom: 5px;
-  color: black;
+  justify-content: center;
+  margin: 0 10px 20px 10px;
 }
 
 .card-img {
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-}
-
-.body-header {
-  max-width: inherit;
+  width: 100%;
+  max-height: 200px;
   display: flex;
-  border-radius: 7px 7px 0px 0px;
-  padding: 10px;
-}
-
-.body-header-title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 80%;
-}
-
-.body-header-duration {
-  width: 20%;
-}
-
-.duration {
-  font-size: 16px;
-  padding-right: 10px;
-  float: right;
-  color: black;
-}
-
-.body-content {
-  font-size: 15px;
-  max-width: inherit;
-  border-radius: 0px 0px 7px 7px;
-  padding: 10px;
-  justify-content: center;
   align-items: center;
-}
-
-.content-list {
-  padding-left: 10px;
-  padding-right: 10px;
+  justify-content: center;
 }
 
 .card-body {
-  border-bottom: 1px solid #d9dbdf;
-  border-left: 1px solid #d9dbdf;
-  border-right: 1px solid #d9dbdf;
-  border-radius: 7px;
-  margin: 10px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.visit-btn {
-  margin: 0px 10px 10px 0px;
-  padding: 10px 20px;
-  border-radius: 40px;
-  border: 0px;
-  float: right;
-  transition: all 0.3s ease-in-out;
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.visit-btn:hover {
-  box-shadow: 0 5px 15px #fc1056;
+.card-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
-.btn {
-  margin: 0px;
-  padding: 0px;
+.card-duration {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .degree-card {
-    flex-direction: column;
-  }
-
-  .body-header {
-    flex-direction: column;
-  }
-
-  .body-header-title {
-    width: 100%;
-  }
-
-  .body-header-duration {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-
-  .duration {
-    padding: 0px;
-    margin: 0px;
-    float: left;
-  }
-
-  .card-img {
-    width: 200px;
-  }
-
-  .card-body {
-    width: 100% !important;
-  }
-
-  .card-title {
-    font-size: 20px;
-  }
-
-  .card-subtitle {
-    font-size: 16px;
-  }
+.card-content {
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.5;
 }

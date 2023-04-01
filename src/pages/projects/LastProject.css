@@ -1,0 +1,134 @@
+.last-project {
+  text-align: center;
+  user-select: none;
+  max-width: 400px;
+  margin: 5rem auto;
+  border: 1px solid var(--mainColor);
+  background-color: #282c34;
+  background: linear-gradient(
+    0deg,
+    rgba(40, 44, 52, 1) 0%,
+    rgba(17, 0, 32, 0.5) 100%
+  );
+  box-shadow: 0 7px 20px 5px #000 88;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+  animation: action 0.9s infinite alternate;
+
+  left: 0;
+  bottom: 0;
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.last-project hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #888 55;
+  margin-top: 0;
+}
+.last-project ins {
+  text-decoration: none;
+}
+.last-project .main {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.last-project .main .tokenImage {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.last-project .project-heading {
+  margin-bottom: 0;
+}
+.last-project .main .description {
+  text-align: left !important;
+  color: #a89ec9;
+  font-size: 15px;
+}
+.last-project .main .tokenInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last-project .main .tokenInfo .demo a {
+  text-decoration: none;
+  border: 1px solid var(--mainColor);
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.last-project .main .tokenInfo .demo a:hover {
+  background: none;
+}
+
+.last-project .main .tokenInfo .duration {
+  display: flex;
+  align-items: center;
+  color: #a89ec9;
+  margin-right: 0.2rem;
+}
+.last-project .main .tokenInfo .duration ins {
+  margin: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.last-project .main .creator {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-bottom: -0.3rem;
+}
+.last-project .main .creator ins {
+  color: #a89ec9;
+  text-decoration: none;
+}
+.last-project .main .creator .wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff 22;
+  padding: 0.3rem;
+  margin: 0;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 4px #000 aa;
+}
+.last-project .main .creator .wrapper img {
+  border-radius: 100%;
+  border: 1px solid #fff 22;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  margin: 0;
+}
+.last-project ::before {
+  position: fixed;
+  content: "";
+  box-shadow: 0 0 100px 40px #fff 8;
+  top: -10%;
+  left: -100%;
+  transform: rotate(-45deg);
+  height: 60rem;
+  transition: 0.7s all;
+}
+.last-project:hover {
+  border: 1px solid #fff 44;
+  box-shadow: 0 7px 50px 10px #000 aa;
+  transform: scale(1.015);
+  filter: brightness(1.3);
+}
+.last-project:hover ::before {
+  filter: brightness(0.5);
+  top: -100%;
+  left: 200%;
+}
