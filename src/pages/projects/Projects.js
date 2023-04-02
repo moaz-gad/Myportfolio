@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
 import "./Projects.css"
 import Filtration from "./Filtration"
 import clicklink from "../../assets/images/click-link.png"
@@ -12,7 +13,12 @@ import infraFit from "../../assets/images/infraFit.png"
 import reactPortfolio from "../../assets/images/react-portfolio.png"
 import memoryGame from "../../assets/images/memory-game.png"
 import toDoList from "../../assets/images/To-Do-List.png"
-import Contact from "./../../pages/contact/ContactComponent"
+import gptimage from "../../assets/images/gpt.png"
+import { Fade } from "react-reveal"
+import { contactPageData } from "../../portfolio.js"
+
+import SocialMedia from "../../components/socialMedia/SocialMedia"
+const ContactData = contactPageData.contactSection
 
 function Projects(props) {
   const theme = props.theme
@@ -138,6 +144,18 @@ function Projects(props) {
       demoUrl: "https://moaz-gad.github.io/To-Do-List/",
       imageSrc: toDoList,
     },
+    {
+      id: 12,
+      label: "Fullstack",
+      name: "ChatGpt",
+      heading: "Node-React Chatbot",
+      description:
+        "chatbot application that leverages OpenAI's powerful GPT language model to provide conversational responses to user input. I have created a custom user interface to allow for easy interaction with the chatbot, and I have also added additional machine learning models to enhance the bot's capabilities",
+      technologies: ["Node.js", "Express", "React", "Css"],
+      githubUrl: "",
+      demoUrl: "",
+      imageSrc: gptimage,
+    },
     // more project objects here
   ])
 
@@ -148,8 +166,8 @@ function Projects(props) {
   }
 
   return (
-    <>
-      {/* <Header theme={theme} setTheme={props.setTheme} /> */}
+    <div className="project-main">
+      <Header theme={theme} setTheme={props.setTheme} />
       <Filtration
         data={data}
         setData={setData}
@@ -194,10 +212,29 @@ function Projects(props) {
           </div>
         ))}
       </div>
-      <div className="contact-section">
-        <Contact theme={props.theme} />
+      <div className="basic-contact">
+        <Fade bottom duration={1000} distance="40px">
+          <div className="contact-heading-div">
+            <div className="contact-heading-text-div">
+              <h1
+                className="contact-heading-text"
+                style={{ color: theme.text }}
+              >
+                {ContactData["title"]}
+              </h1>
+              <p
+                className="contact-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {ContactData["description"]}
+              </p>
+              <SocialMedia page="contact" />
+            </div>
+          </div>
+        </Fade>
+        <Footer theme={props.theme} onToggle={props.onToggle} />
       </div>
-    </>
+    </div>
   )
 }
 

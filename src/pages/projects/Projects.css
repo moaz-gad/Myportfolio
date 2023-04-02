@@ -5,9 +5,10 @@
 .links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 10px;
   margin-top: 2rem;
+  height: 20%;
 }
 
 .links a {
@@ -45,17 +46,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .project-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-  }
 }
 /*************** MEDIA QUERIES (SMALL DEVICES) ***************/
 @media screen and (max-width: 600px) {
-  .project-list {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
 }
 
 /*PEN STYLES*/
@@ -64,8 +57,8 @@
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
+  margin-bottom: 5.6%;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.6%;
   background: #fff;
   line-height: 1.4;
   border-radius: 5px;
@@ -192,8 +185,15 @@
 }
 @media (min-width: 640px) {
   .blog-card {
+    height: 350px;
+  }
+}
+@media (min-width: 640px) {
+  .blog-card {
     flex-direction: row;
     max-width: 1200px;
+    margin: 1rem auto;
+    margin-bottom: 1.6%;
   }
   .blog-card .meta {
     flex-basis: 40%;
@@ -226,18 +226,20 @@
   }
 }
 
-.contact-section {
-  padding-bottom: 1em;
-  background-color: #fff;
-  color: #000 !important;
-}
-.contact-section h1 {
-  color: #000 !important;
-}
-
 @media (max-width: 1240px) {
   .projects-wrapper {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
   }
+}
+
+.project-main .basic-contact {
+  background-color: white;
+  color: black !important;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2em;
+}
+.project-main .basic-contact h1 {
+  color: #000 !important;
 }
