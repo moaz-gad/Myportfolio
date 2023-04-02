@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "829760b211a2f30e1d09",
-    "url": "/Myportfolio/static/css/main.fe82a346.chunk.css"
+    "revision": "ae0719f71c7dca24cde8",
+    "url": "/Myportfolio/static/css/main.f7bb1e00.chunk.css"
   },
   {
-    "revision": "829760b211a2f30e1d09",
-    "url": "/Myportfolio/static/js/main.e1e1441a.chunk.js"
+    "revision": "ae0719f71c7dca24cde8",
+    "url": "/Myportfolio/static/js/main.0e69b541.chunk.js"
   },
   {
     "revision": "91fb02f18fbfdcad6b02",
     "url": "/Myportfolio/static/js/runtime~main.def78bfa.js"
   },
   {
-    "revision": "5a9e7bddb572ed200cbf",
+    "revision": "f8678f1b7c344cd7e2ff",
     "url": "/Myportfolio/static/css/2.54334d10.chunk.css"
   },
   {
-    "revision": "5a9e7bddb572ed200cbf",
-    "url": "/Myportfolio/static/js/2.4ea4a6b1.chunk.js"
+    "revision": "f8678f1b7c344cd7e2ff",
+    "url": "/Myportfolio/static/js/2.2f769fa8.chunk.js"
+  },
+  {
+    "revision": "e2d451a033b5c3ed3933d1ab2512b22e",
+    "url": "/Myportfolio/static/media/Moaz-Gad.e2d451a0.pdf"
   },
   {
     "revision": "500d22b226563aff6bcd580983f15b09",
@@ -68,40 +72,36 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/souqElGomaa.4f211a68.png"
   },
   {
-    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
-    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
-  },
-  {
-    "revision": "5063b105c7646c8043d58c5289f02cca",
-    "url": "/Myportfolio/static/media/fa-brands-400.5063b105.eot"
+    "revision": "06147b6cd88c7346cecd1edd060cd5de",
+    "url": "/Myportfolio/static/media/fa-brands-400.06147b6c.ttf"
   },
   {
     "revision": "cccc9d29470e879e40eb70249d9a2705",
     "url": "/Myportfolio/static/media/fa-brands-400.cccc9d29.woff2"
   },
   {
-    "revision": "06147b6cd88c7346cecd1edd060cd5de",
-    "url": "/Myportfolio/static/media/fa-brands-400.06147b6c.ttf"
+    "revision": "5063b105c7646c8043d58c5289f02cca",
+    "url": "/Myportfolio/static/media/fa-brands-400.5063b105.eot"
   },
   {
-    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
-    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
-  },
-  {
-    "revision": "f5f2566b93e89391da4db79462b8078b",
-    "url": "/Myportfolio/static/media/fa-regular-400.f5f2566b.woff2"
+    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
+    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
   },
   {
     "revision": "c4f508e7c4f01a9eeba7f08155cde04e",
     "url": "/Myportfolio/static/media/fa-regular-400.c4f508e7.woff"
   },
   {
+    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
+    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
+  },
+  {
     "revision": "65b286af947c0d982ca01b40e1fcab38",
     "url": "/Myportfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "9443c1e7fdf95d739af3f0901224f90a",
-    "url": "/Myportfolio/static/media/fa-regular-400.9443c1e7.svg"
+    "revision": "f5f2566b93e89391da4db79462b8078b",
+    "url": "/Myportfolio/static/media/fa-regular-400.f5f2566b.woff2"
   },
   {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
@@ -112,16 +112,20 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
+    "revision": "333bae208dc363746961b234ff6c2500",
+    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
+  },
+  {
+    "revision": "9443c1e7fdf95d739af3f0901224f90a",
+    "url": "/Myportfolio/static/media/fa-regular-400.9443c1e7.svg"
+  },
+  {
     "revision": "0bff33a5fd7ec390235476b4859747a0",
     "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
   },
   {
     "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
     "url": "/Myportfolio/static/media/fa-brands-400.9d204f50.svg"
-  },
-  {
-    "revision": "333bae208dc363746961b234ff6c2500",
-    "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
     "revision": "3d102342391af184d5ae9e7708d8220f",
@@ -148,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/portfolioProfileImage.ce1051e1.png"
   },
   {
-    "revision": "4a30fec691e3a46a4ae5b87e0dce496c",
+    "revision": "c3ec07f119538aaae1d049d326038766",
     "url": "/Myportfolio/index.html"
   }
 ];

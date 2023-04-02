@@ -46,7 +46,18 @@ div.about-me span a:hover {
 }
 
 /* Media Query */
-@media (max-width: 1380px) {
+@media (max-width: 1179px) {
+  .cta-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .greet-main {
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -54,6 +65,8 @@ div.about-me span a:hover {
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .greeting-intro {
     text-align: center;

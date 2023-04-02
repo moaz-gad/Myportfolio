@@ -79,7 +79,8 @@
 }
 
 #menu-toggle:checked + .menu-icon {
-  right: 210px;
+  /* right: 210px; */
+  display: none;
 }
 
 /* -- Media Queries -- */
