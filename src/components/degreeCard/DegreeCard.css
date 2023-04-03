@@ -52,3 +52,24 @@
 .card-content {
   line-height: 1.6;
 }
+@media screen and (max-width: 1024px) {
+}
+/*************** MEDIA QUERIES (SMALL DEVICES) ***************/
+@media screen and (max-width: 600px) {
+  .card-img img {
+    max-width: 100px;
+  }
+  .card-title {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  .card-duration {
+    font-size: 15px;
+  }
+  .card-subtitle {
+    font-size: 17px;
+  }
+  .content-list {
+    font-size: 15px;
+  }
+}
