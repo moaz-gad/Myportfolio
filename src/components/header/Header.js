@@ -6,8 +6,11 @@ import DownloadBtn from "./DownloadBtn"
 function Header() {
   return (
     <div className="header">
-      <div className="my-cv">
+      <div className="header-buttons">
         <DownloadBtn />
+        <NavLink className="home-btn" to="/home" tag={Link}>
+          Home
+        </NavLink>
       </div>
       <div className="side-bar">
         <input type="checkbox" id="menu-toggle" />

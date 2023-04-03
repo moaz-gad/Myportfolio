@@ -1,13 +1,23 @@
 .work-experience {
-  background-color: #fff;
-  border-radius: 4px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 24px;
   margin-bottom: 24px;
   animation-name: fade-in;
   animation-duration: 1s;
+  position: relative;
 }
 
+.work-experience:not(:last-child):after {
+  content: "";
+  border-bottom: 1px solid var(--mainColor);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -24,22 +34,32 @@
 }
 
 .work-experience-company {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
+  --c: var(--mainColor);
+
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+  padding: 10px;
+  border-bottom: 1px solid var(--mainColor);
+  --_p: 100%;
+  color: black;
 }
 
 .work-experience-dates {
   font-size: 16px;
-  color: #666;
+
   margin: 0;
 }
 
 .work-experience-job-title {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
+
   margin: 16px 0;
 }
 
@@ -51,7 +71,7 @@
 
 .work-experience-description li {
   font-size: 16px;
-  color: #333;
+
   margin-bottom: 8px;
 }
 @media (max-width: 768px) {
@@ -67,7 +87,7 @@
 
   .work-experience-company {
     font-size: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
   }
 
   .work-experience-dates {

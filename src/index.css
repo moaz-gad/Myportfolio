@@ -47,3 +47,6 @@ body {
     line-height: normal;
   }
 }
+.home .home-btn {
+  display: none;
+}
