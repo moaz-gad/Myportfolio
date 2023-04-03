@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "4dc4ced41e9d1a534cd1",
-    "url": "/Myportfolio/static/css/main.0095b721.chunk.css"
+    "revision": "0568dc942c86a8b71f2c",
+    "url": "/Myportfolio/static/css/main.578dec11.chunk.css"
   },
   {
-    "revision": "4dc4ced41e9d1a534cd1",
+    "revision": "0568dc942c86a8b71f2c",
     "url": "/Myportfolio/static/js/main.228ac1ed.chunk.js"
   },
   {
@@ -80,16 +80,12 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-brands-400.cccc9d29.woff2"
   },
   {
-    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
-    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
-  },
-  {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
     "url": "/Myportfolio/static/media/fa-brands-400.06147b6c.ttf"
   },
   {
-    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
-    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
+    "revision": "c5e0f14f88a828261ba01558ce2bf26f",
+    "url": "/Myportfolio/static/media/fa-brands-400.c5e0f14f.woff"
   },
   {
     "revision": "f5f2566b93e89391da4db79462b8078b",
@@ -104,12 +100,24 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
+    "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
+    "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
+  },
+  {
     "revision": "9443c1e7fdf95d739af3f0901224f90a",
     "url": "/Myportfolio/static/media/fa-regular-400.9443c1e7.svg"
   },
   {
-    "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
-    "url": "/Myportfolio/static/media/fa-solid-900.8e4a6dcc.eot"
+    "revision": "0bff33a5fd7ec390235476b4859747a0",
+    "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
+  },
+  {
+    "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
+    "url": "/Myportfolio/static/media/fa-brands-400.9d204f50.svg"
+  },
+  {
+    "revision": "3d102342391af184d5ae9e7708d8220f",
+    "url": "/Myportfolio/static/media/fa-solid-900.3d102342.svg"
   },
   {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
@@ -120,16 +128,8 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
-    "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
-    "url": "/Myportfolio/static/media/fa-brands-400.9d204f50.svg"
-  },
-  {
-    "revision": "0bff33a5fd7ec390235476b4859747a0",
-    "url": "/Myportfolio/static/media/fa-solid-900.0bff33a5.ttf"
-  },
-  {
-    "revision": "3d102342391af184d5ae9e7708d8220f",
-    "url": "/Myportfolio/static/media/fa-solid-900.3d102342.svg"
+    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
+    "url": "/Myportfolio/static/media/fa-regular-400.c1a866ec.eot"
   },
   {
     "revision": "614b2265dd20f0c586dce96502abe747",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Myportfolio/static/media/portfolioProfileImage.ce1051e1.png"
   },
   {
-    "revision": "e88c63a5bd1a1517394c1693fa622d83",
+    "revision": "57c0692a81e098e94d31f1c37e6ac860",
     "url": "/Myportfolio/index.html"
   }
 ];
